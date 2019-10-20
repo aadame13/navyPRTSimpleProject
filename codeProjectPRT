@@ -1,0 +1,70 @@
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    char gender = ' ';
+    int age = 0;
+    int curlUps = 0;
+    int pushUps = 0;
+    double run = 0.0;
+    
+    
+    cout << "Male or Female? "; cin >> gender;
+    
+    if(gender == 'm' || gender == 'M')
+    {
+        cout << gender;
+        
+        cout << "Enter Age, Curl-Ups, Push-Ups, and Run: "; 
+        cin >> age >> curlUps >> pushUps >> run;
+        
+    }
+    
+    else if(gender == 'F' || gender == 'f')
+    {
+        cout << gender;
+        
+        cout << "Enter Age, Curl-Ups, Push-Ups, and Run: ";
+        cin >> age >> curlUps >> pushUps >> run;
+        
+        if(age >= 20 && age <= 24)
+        {
+            
+         if(curlUps <= 46)
+         {
+            cout << "Curl-Ups: Probationary"
+         }
+         
+         else if(curlUps > 46 && curlUps <= 50)
+         {
+             cout "Curl-Ups: Sat. Medium"
+         }
+         
+         else if()
+        }
+        
+        else if(age >= 25 && age <= 29)
+        {
+            
+        }
+        
+        else if(age >=30 && age <=34)
+        {
+            
+        }
+        
+        else if(age >= 35 && age <= 39)
+    }
+    
+    else
+    {
+        cerr << "Not a valid entry.";
+    }
+    
+
+    return 0;
+}
